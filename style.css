@@ -1,0 +1,45 @@
+h1 {
+    color: blue;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2rem;
+}
+
+main {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    grid-gap: 4rem;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+    margin-bottom: 6rem;
+}
+
+button {
+    font-size: 1.5rem;
+    padding: 20px;
+    border-radius: 10% / 50%;
+    background-color: bisque;
+    justify-content: center;
+    margin-left: 20px;
+}
+
+h3, p {
+    margin: 0;
+}
+
+.picDivs {
+    width: 160px;
+}
+
+.charDivs {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%px;
+    border: 1px solid #1212be;
+    padding: 6px;
+}
